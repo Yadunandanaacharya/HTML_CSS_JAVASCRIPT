@@ -1,5 +1,5 @@
 //Function to add 2 integers.
-function functionWithArgs (a,b){
+function foraddition (a,b){
   console.log('sum is',a+b)
 }
-functionWithArgs (1,2)
+foraddition (1,2)
