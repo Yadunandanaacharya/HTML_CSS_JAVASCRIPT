@@ -26,27 +26,27 @@
 // Cards Sequence 2, 2, 10 should return 1 Bet
 // Cards Sequence 3, 2, A, 10, K should return -1 Hold
 
-var count = 0;
-var current
-function cc(card) {
-  // Only change code below this line
-  if (card==2 || card==3 || card==4 || card==5||card==6){
-    count+=1
-    current=count
-  }else if(card==7 || card==8 || card==9){
-    count=current
+// var count = 0;
+// var current
+// function cc(card) {
+//   // Only change code below this line
+//   if (card==2 || card==3 || card==4 || card==5||card==6){
+//     count+=1
+//     current=count
+//   }else if(card==7 || card==8 || card==9){
+//     count=current
 
-  }else if (card==10 ||card=='J' ||card=='Q' ||card=='K' ||card=='A'){
-  	count-=1
-  	current=count
-  }
+//   }else if (card==10 ||card=='J' ||card=='Q' ||card=='K' ||card=='A'){
+//   	count-=1
+//   	current=count
+//   }
 
-  console.log(count)
-  return "count";
-  // Only change code above this line
-}
+//   console.log(count)
+//   return "count";
+//   // Only change code above this line
+// }
 
-cc(2); cc('J'); cc(9); cc(2); cc(7);
+// cc(2); cc('J'); cc(9); cc(2); cc(7);
 
 
 // I HAVE USED CURRENT HERE BECAUSE IT HOLDS PREVIOUS VALUES BY DOING 
@@ -71,3 +71,33 @@ cc(2); cc('J'); cc(9); cc(2); cc(7);
 // 		console.log('count when negative is',a[i],count)
 // }
 // console.log(count)
+
+let count = 0;
+function cc(card) {
+  // Only change code below this line
+  switch(card){
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count ++;
+      break;
+    case 10:
+    case 'J':
+    case 'Q':
+    case 'K':
+    case 'A':
+      count --;
+      break;
+  }
+  
+  if (count > 0) {
+    return count + " Bet";  //This space is " Bet" is very very important same for " Hold"
+    console.log()
+  }else{
+    return count + " Hold"
+  }
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
