@@ -1,0 +1,78 @@
+IMPORTANT INSTRUCTION: dON'T USE INTERNET EXPLORER, USE EDGE OR CHROME SOME FEATURE LIKE "DATE" CODE FROM HERE BELOW WON'T BE DISPLAYED PROPERLY IN WEBPAGE.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms and Inputs</title>
+</head>
+<body>
+    <h3>This is HTML forms</h3>
+    <form action="Backend.py">
+   <!-- When we use backend like Python, then data writte in form will go to python program, data of form will be submitted to backend. -->
+   <!-- Input tags can be text, button, check box -->
+   <!-- div is block elemenet takes full block, Name is inline element, since we don't want to use br tag to break line, we want to use div tag -->
+        
+        <div> 
+            Name: <input type="" name="">
+        </div>
+        <br>
+        <div> 
+            Role: <input type="" name="myRole">
+        </div>
+        <br>
+        <div> 
+            Email: <input type="email" name="myEmail">
+        </div>
+   <!-- Here role will look slightly slanted but we cannot make it correct by using html we need to use css for that -->
+   <!-- br tag is not recommended -->
+   <!-- With the help of name attribute while using backend we can extract name or role or email -->
+        
+        <br>
+        <div> <!-- In tutorial after executing code he has written date in this format dd-yy-zzzz-->
+            Date: <input type="date" name="">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="">
+        </div>
+         <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" checked> <!-- this works-->
+        </div><!-- by typing checked abobe default check happens-->
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female<input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+    Write about yourself: Male <textarea name="myText" rows="30" cols="10"> </textarea>
+        </div>
+        <!-- AFTER USING BR TAG INSIDE WRITE ABOUT YOURSELF -->
+        <div>
+            <hr>
+    Write about yourself:<br> Male <textarea name="myText" rows="30" cols="10"> </textarea>
+        </div>
+        <br>
+        <div> 
+             <input type="Submit" value="Submit now" >
+        </div><!-- data will go to backend-->
+        <div> 
+            <input type="reset" value="Reset now" >
+        </div>
+<!-- IMPORTANCE OF USING LABEL -->
+<label for="name">Name</label>
+<div>
+ AS YOU CLECK ON NAME HERE NAME WILL BE SELECTED SO THAT YOU CAN ENTER NAME USE OF FOR LOOP::::  <label for="name">Name</label> <input type="name" name="myName" id="name">
+</div><!-- as YOU CLECK ON NAME AB-->
+<br>
+<br>
+USES OF SELECT
+<div>
+    <label for="car">Car</label>
+    <select name="myCar" id="car"></select>
+        <option value="Benz" selected="">Benz</option> <!-- by default selected due to selected -->
+        <option value="Toyota">Toyota</option>
+</div>
+    </form>
+</body>
+</html>
