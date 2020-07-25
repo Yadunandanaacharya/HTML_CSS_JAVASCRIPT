@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/33701933/how-to-change-environments-font-size
+
+In Visual Studio Code, by pressing Ctrl+ and Ctrl- you can change the overall font size of the IDE. 
+This helps faster than changing settings in every session. Hope it helps...

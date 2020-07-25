@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selectors</title>
+<p>Four types of css selectors: Element, Id, Class, Grouping selector</p>
+
+    <style>
+        /* Elemenet selector */
+        p{
+            color:aqua;
+            border: 2px solid red;
+        }
+        /* ID selector */
+        #redElement{ 
+            color: red;
+        }
+   /* Class selector */
+        .blueElement{
+            color: blue;
+            
+        }  
+        /* Grouping selector */
+        footer,span{
+            background-color: pink;
+        }
+        /* Commenting inside css because style is part of css, press ctrl+/ inside style it's commented */
+    </style>
+</head>
+<body>
+    <h3>Css selectors</h3>
+   
+    <p>This is simple paragraph to demonstrate css selectors,Here you are using element selector which is paragraph elemenet
+        by defining p inside style
+    </p>
+    <div>
+        <p>This is also simple paragraph</p>
+    </div>
+
+    <p id="redElement">Making only this paragraph red by defining in style using #redElement, here id will be unique
+        but class can be multiple, # for id, . for class
+    </p>
+
+    <p id="notRedEle" class="whiteElement">using different id this time also this line won't become red, even if you use class as redElement</p>
+  
+    <p id="notRed" class="blueElement">But when I use .  in style this line will become blue . means for class class can be multiple</p>
+<br>
+<span>This is example of using group css by selecting them inside style</span></span>
+    <footer>This is footer</footer>
+</body>
+</html>
