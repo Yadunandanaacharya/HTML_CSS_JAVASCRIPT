@@ -1,0 +1,15 @@
+*) add gitignore
+#. browser not refresh on change html in view
+
+
+*) add gitignore
+D:\Github_clone_repo\MyGitDontAddAnyFile\HTML_CSS_JAVASCRIPT
+ outside or root folder added gitignore file to ignore package files
+dll files bin folder debug folder of visual studio will be ignored when
+commiting
+
+#. browser not refresh on change html in view
+this below link
+https://stackoverflow.com/questions/53639969/net-core-mvc-page-not-refreshing-after-changes
+
+adding this to code works services.AddControllersWithViews().AddRazorRuntimeCompilation();
