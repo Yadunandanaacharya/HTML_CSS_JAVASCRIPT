@@ -1,0 +1,113 @@
+html css w3schools refer full for interview preparation that much is enough
+or else go through some 3-4 links for html css js prep
+
+revise same questions by typing same html css code again and again
+
+Prepare and practice for below you'll get 100% confidence for front end interview
+
+design a calendar
+
+
+Time to complete: 45 minutes to 1 hour.
+
+1. Responsive Navigation Bar:
+Task: Design a navigation bar that adapts for mobile, tablet, and desktop views.
+What they might ask: Use CSS (flexbox, grid) to create a menu that includes dropdowns 
+or a hamburger menu on mobile.
+
+2. Simple Card Layout:
+Task: Design a card grid layout that displays items like products, blog posts, or team members.
+What they might ask: Create a clean layout with images, titles, and descriptions, ensuring it’s 
+responsive (adjusting for mobile and desktop).
+
+3. Form Design (Login or Registration):
+Task: Design a login or registration form with fields like name, email, password, and a submit button.
+What they might ask: Focus on UX/UI for easy-to-use forms, and possibly some basic form validation 
+(e.g., showing errors on invalid input).
+
+4. Modal/Popup Window:
+Task: Design a modal that appears when a user clicks a button (e.g., for creating/editing content).
+What they might ask: Make the modal functional with simple HTML, CSS, and maybe some JavaScript 
+for interaction (open/close).
+
+5. Simple Calendar Layout:
+Task: Create a basic calendar for a single month that displays the days of the week, and 
+allows navigation between months.
+What they might ask: Use HTML and CSS for layout and style, and maybe some 
+basic JavaScript to handle month switching.
+
+6. Responsive Profile Page:
+Task: Design a profile page layout that includes a photo, bio, and recent activity. Make sure it’s responsive.
+What they might ask: Create a visually appealing and responsive layout, with a sidebar or header for the profile 
+and dynamic content.
+
+7. Pagination or Infinite Scroll:
+Task: Create a simple pagination system for displaying a list of items or blog posts (or simulate infinite scroll).
+What they might ask: Design a system with navigation elements to paginate through items or implement a 
+basic scroll-to-load feature.
+
+8. Button and Interactive Elements Design:
+Task: Design interactive buttons for a form or website (e.g., hover states, focus styles, 
+and disabled states).
+What they might ask: Focus on creating a set of buttons with different states and styles.
+
+
+1. Sticky Header with Scroll Effect:
+Task: Design a header that becomes sticky at the top when the user scrolls past it. Include a logo, navigation links, and possibly a call-to-action button.
+What they might ask: Focus on a clean and responsive header that becomes fixed after scrolling. You may be asked to add a transition effect when it sticks to the top.
+Time to complete: 45 minutes.
+What to focus on: CSS for sticky positioning, smooth scroll effects, and a responsive design.
+
+2. Progress Bar (For File Upload or Process):
+Task: Design a progress bar that visually shows the completion percentage of a task, like a file upload or data processing.
+What they might ask: Make it visually clear and responsive. You might also be asked to simulate a progress update using JavaScript.
+Time to complete: 30–45 minutes.
+What to focus on: CSS animations, JavaScript for progress simulation, and a responsive design.
+
+3. Image Gallery with Lightbox:
+Task: Design a simple image gallery where clicking on an image opens a lightbox (modal) with a larger version of the image.
+What they might ask: Create a grid of images, and when an image is clicked, it should open in a modal with navigation arrows to switch between images.
+Time to complete: 1 hour.
+What to focus on: Grid layout with CSS, modal behavior with JavaScript, and smooth transitions.
+
+4. Pricing Table:
+Task: Design a pricing table for a service or product with at least three plans (e.g., Basic, Pro, Premium) and features listed in rows.
+What they might ask: Include hover effects, a clear visual hierarchy, and a call-to-action button for each plan. It should be responsive and easy to read.
+Time to complete: 45 minutes.
+What to focus on: Clear layout (CSS Grid or Flexbox), responsiveness, and interactive hover states.
+
+5. Accordion Menu (Expandable Sections):
+Task: Create an accordion-style menu where sections expand/collapse when clicked. Each section can contain some content (e.g., text or links).
+What they might ask: Implement smooth transitions for expanding/collapsing sections, and ensure the accordion works well on mobile devices.
+Time to complete: 45 minutes.
+What to focus on: JavaScript for interaction, smooth transitions with CSS, and making it mobile-friendly.
+
+6. Login/Signup Form with Validation:
+Task: Create a login and signup form with fields for name, email, password, and a submit button. Include basic client-side validation (e.g., password strength, valid email format).
+What they might ask: Implement form validation and show error messages if the user inputs invalid data.
+Time to complete: 1 hour.
+What to focus on: CSS for form styling, JavaScript for validation, and usability for error messages.
+
+7. Dashboard Widget:
+Task: Design a dashboard widget that shows data (e.g., a chart, stats, or recent activity). Include interactive features like tooltips or hover effects.
+What they might ask: Focus on creating a visually clean widget with data representation (e.g., a progress circle, bar graph, or list of items).
+Time to complete: 1 hour.
+What to focus on: Layout with CSS, interactive elements (tooltips, hover states), and data display (possibly using JavaScript for dynamic content).
+
+8. Toast Notifications:
+Task: Design a simple notification system where small toast messages pop up at the top or bottom of the screen (success, error, info).
+What they might ask: Implement toast messages that fade in/out automatically and disappear after a set time.
+Time to complete: 30–45 minutes.
+What to focus on: CSS animations for toast appearance and disappearance, positioning of the toast, and JavaScript for managing notifications.
+
+9. Interactive Map (Static Example):
+Task: Design a simple map layout with location markers (this can be a static map without real map functionality, just to display the concept).
+What they might ask: Create a visual representation of a map, add markers to represent locations, and style them effectively.
+Time to complete: 1 hour.
+What to focus on: Use CSS for positioning and styling, possibly some SVGs or images for markers, and make sure the layout is visually appealing.
+
+10. Content Slider/Carousel:
+Task: Design a carousel/slider that allows the user to scroll through content like images, articles, or products. Include navigation arrows and dots.
+What they might ask: Implement functionality to show and hide content items, and include a smooth transition between slides. The carousel should be responsive.
+Time to complete: 1 hour.
+What to focus on: JavaScript for slider functionality, CSS for layout and transitions, and ensuring it’s responsive on mobile.

@@ -28,6 +28,16 @@ namespace w3schoolsHowToImp.Controllers
             return View();
         }
 
+        public IActionResult CalendarDynamicBtns()
+        {
+            return View();
+        }
+
+        public IActionResult RangeSliders()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

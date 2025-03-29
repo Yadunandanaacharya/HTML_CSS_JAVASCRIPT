@@ -1,0 +1,35 @@
+﻿@section Styles {
+    <link href="~/css/RangeSlider.css" rel="stylesheet" />
+}
+
+@section Scripts{
+    <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+
+        slider.oninput = function(){
+            output.innerHTML = this.value;
+        }
+    </script>
+}
+
+@{
+    ViewData["Title"] = "RangeSliders";
+}
+
+@* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_rangeslider *@
+
+<h1>RangeSliders</h1>
+
+<h1> Custom range slider</h1>
+<div class="slidecontainer"> 
+    <p>Default range slider </p>
+    <input type="range"  min="1" max="100" value="70" id=""/>
+
+    <p>Custom range slider:</p>
+    <input type="range" min="1" max="100" value="50" class="slider" 
+        id="myRange" />
+
+    <p>Value: <span id="demo"></span></p>
+</div>

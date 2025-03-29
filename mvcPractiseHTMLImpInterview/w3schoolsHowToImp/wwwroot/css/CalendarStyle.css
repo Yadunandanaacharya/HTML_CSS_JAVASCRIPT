@@ -1,0 +1,102 @@
+﻿*{box-sizing:border-box;} 
+
+ul {
+    list-style-type: none;
+}
+
+.month {
+    padding: 70px 20px;
+    width: 100%;
+    background: green;
+    text-align: center;
+}
+
+    .month ul {
+        margin: 0;
+        padding: 0;
+    }
+
+        .month ul li {
+            color: white;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+    .month .prev {
+        float: left;
+        padding-top: 10px;
+    }
+
+    .month .next {
+        float: right;
+        padding-top: 10px;
+    }
+
+.weekdays {
+    color:darkolivegreen;
+    margin:0;
+    padding:10px 0px;
+    background-color:#ddd;
+}
+
+.weekdays li{
+    display:inline-block;
+    width:13.6%;
+    text-align:center;
+    color:#666;
+}
+
+.days{
+    background:#eee;
+    padding:10px 0;
+    margin:0;
+}
+
+    .days li {
+        list-style-type:none;   
+        display: inline-block;
+        text-align: center;
+        width: 13.6%;
+        margin-bottom:5px;
+        font-size:12px;
+        color:#777;
+    }
+
+.days li .active {
+            padding: 5px;
+            background: #1abc9c;
+            color: white !important
+        }
+
+/*responsive screen: for small screen medium like that autoatically we adjust based on px
+    what to show what to hide
+
+    danger: little bit change in below code your browser won't be responsive
+    means: open browser developer tool, now browser in half size screen still decrease width of calendar screen 
+    you'll see difference if you write wrong below code then days name won't align with no of days.
+
+    w3schools width I didn't follow i gave my own width with that browser was not responsive 
+    13.1%,12.5%,12.2%  this width i didn't give I changed it to 13.1%,10.5%,8.1% it didn't work properly
+
+    they have properly tested in browser and gave those width in percentage
+*/
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width:13.1%;}
+}
+
+@media screen and (max-width:420px) {
+    .weekdays li, .days li {
+        width: 12.5%;
+    }
+/*    below changes padding of active item when screen size changes*/
+    .days li .active{padding:2px;}
+}
+
+@media screen and (max-width:290px) {
+    .weekdays li, .days li {
+        width: 12.2%;
+    }
+}
+
+
